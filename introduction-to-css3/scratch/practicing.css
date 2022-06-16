@@ -1,0 +1,22 @@
+h1 {
+  color: rgb(32, 108, 201);
+  text-align: center;
+  font-size: 200%;
+}
+body {
+  background-color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  font-variant: small-caps;
+}
+
+details {
+  color: rgb(21, 130, 130);
+  font-style: italic;
+}
+
+summary {
+  font-style: normal;
+}
