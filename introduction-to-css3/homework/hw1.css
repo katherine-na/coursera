@@ -1,0 +1,36 @@
+header {
+  background-color: rgb(182, 183, 185);
+  margin: 10px 10px 0px 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: black;
+  background-color: rgb(199, 195, 195);
+}
+
+aside {
+  display: none;
+}
+
+section {
+  background-color: rgb(133, 136, 136);
+  margin: 0px 10px;
+}
+
+h2 {
+  color: rgb(10, 10, 134);
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+section a {
+  color: black;
+  background-color: rgb(199, 195, 195);
+}
