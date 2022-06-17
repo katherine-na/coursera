@@ -35,8 +35,6 @@ They are defined within the `<style>` element, within the `<head>...</head>` sec
 
 - Styles are applied to all elements in all files that links to the style sheet
 
-## Development tools
-
 # Color
 
 ## Color conventions
@@ -169,9 +167,24 @@ h1 {
 
   ## Common Values
 
+  - inline
+
+    - Sits next to other elements
+    - Take up "just enough" width and height
+
+  - block
+
+    - Forces the line break
+    - Default: take up all horizontal width
+
   - inline-block
-    - Same as inline, but accepts height and width
+
+    - Same as inline, but accepts height and width and "just enough" height
+    - Rules can set height and width
+
   - none: removed from page
+
+![](https://blog.4psa.com/wp-content/uploads/block-inline1.png)
 
 ## display
 
