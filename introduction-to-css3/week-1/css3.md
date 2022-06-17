@@ -165,28 +165,28 @@ h1 {
 - Every element is a box
 - Display affects the layount of neighboring elements
 
-  ## Common Values
+# Display
 
-  - inline
+## inline
 
-    - Sits next to other elements
-    - Take up "just enough" width and height
+- Sits next to other elements
+- Take up "just enough" width and height
 
-  - block
+## block
 
-    - Forces the line break
-    - Default: take up all horizontal width
-
-  - inline-block
-
-    - Same as inline, but accepts height and width and "just enough" height
-    - Rules can set height and width
-
-  - none: removed from page
+- Forces the line break
+- Default: take up all horizontal width
 
 ![](https://blog.4psa.com/wp-content/uploads/block-inline1.png)
 
-## display
+## inline-block
+
+- Same as inline, but accepts height and width and "just enough" height
+- Rules can set height and width
+
+## none
+
+- removed from page
 
 ## float
 
@@ -194,7 +194,33 @@ h1 {
 - Elements are aware of one another and will not overlap
 - Values: left, right
 
+![](https://sebhastian.com/css-float/float-common-use.png)
+
 ## clear
 
 - Use to keep floating elements away
 - Values: left, right, both
+
+# Overflow
+
+## visible
+
+- Can cause text to show up "on top" of other text
+
+## hidden
+
+- Hides anything that goes beyond bounding box
+
+## scroll
+
+- Gives horizontal and vertical scrollbars
+
+## auto
+
+- Adds scrollbars as needed
+
+## Other display values
+
+- table
+- grid
+- flexbox
