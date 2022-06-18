@@ -1,22 +1,53 @@
+header {
+  background-color: rgb(138, 103, 172);
+  padding: 15px;
+}
+
 h1 {
-  color: rgb(32, 108, 201);
+  color: rgb(248, 234, 251);
   text-align: center;
   font-size: 200%;
 }
 body {
   background-color: azure;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 5%;
 }
 
-nav {
+nav a {
   font-variant: small-caps;
+  color: black;
+}
+
+section {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin-right: 2%;
+}
+
+h2 {
+  background-color: rgb(163, 214, 197);
+  padding: 5px;
 }
 
 details {
-  color: rgb(21, 130, 130);
+  color: rgb(10, 49, 49);
   font-style: italic;
 }
 
 summary {
   font-style: normal;
+}
+
+footer {
+  background-color: rgb(156, 208, 248);
+  padding: 5px;
+  clear: both;
+  position: relative;
+}
+
+img {
+  width: 80px;
+  height: 70px;
 }
