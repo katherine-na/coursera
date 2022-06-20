@@ -159,3 +159,31 @@ list-style-image: square url("icon.gif");
 - -moz-: Firefox
 - -ms-: Internet Explore
 - -o-: Opera
+
+# Designing For Accessibility
+
+## Follow the POUR guidelines
+
+## Perceivable
+
+- Provide text alternatives for images
+- Provide captions and transcripts for video and audio
+- Use correct semantic markup so content can be presented in different ways
+- Make it easier for users to see content by using good color contrast
+
+## Operable
+
+- All functionality available from the keyboard!
+- Users have control over timing and limits
+- Do not cause seizures (don't flash content)
+- Provide ways to help users navigat, find content, and determine where they are
+
+## Understandable
+
+- Text supplemented with ilustration, videos and other formats where appropriate
+- Navigation, information structure are discernable and consistent
+- Make pages operate in predictable ways
+
+## Robust
+
+- Syntax errors that don't affect visual presentation may hamper assistive technology and accessibility tools
