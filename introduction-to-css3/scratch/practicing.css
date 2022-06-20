@@ -1,6 +1,10 @@
-header {
-  background-color: rgb(138, 103, 172);
+header,
+footer {
   padding: 15px;
+  background: #afafaf;
+  background: -moz-linear-gradient(top #afafaf, rgb(145, 206, 226));
+  background: -webkit-linear-gradient(#afafaf 0%, rgb(145, 206, 226));
+  background: -o-linear-gradient(#afafaf 0%, rgb(145, 206, 226));
 }
 
 h1 {
@@ -14,11 +18,27 @@ body {
   margin: 5%;
 }
 
-nav a {
-  font-variant: small-caps;
-  color: black;
+.half {
+  width: 45%;
+  margin-right: 2%;
+  display: inline-block;
 }
 
+.whole {
+  clear: both;
+}
+
+nav a {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20%;
+  padding: 10px;
+  background: white;
+}
+
+nav {
+  text-align: center;
+}
 section {
   width: 30%;
   display: inline-block;
@@ -27,7 +47,7 @@ section {
 }
 
 h2 {
-  background-color: rgb(163, 214, 197);
+  background-color: rgb(212, 238, 230);
   padding: 5px;
 }
 
@@ -41,7 +61,6 @@ summary {
 }
 
 footer {
-  background-color: rgb(156, 208, 248);
   padding: 5px;
   clear: both;
   position: relative;

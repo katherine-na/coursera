@@ -102,3 +102,60 @@ list-style-image: square url("icon.gif");
 ## list-style -->
 
 # Advance Selectors
+
+- Some selectors follow the DOM
+- Descendant selectors (nav a)
+  - Style all of the anchor links inside a nav tag
+- Child selector (nav > a)
+  - The anchor elements must be a child of the nav, no intermediate tags, e.g. paragraph
+- Adjacent sibling(hl + ol)
+  - Elements must be at the same level and follow each other
+
+## Id Selectors
+
+- Used to identify a single element in the DOM.
+- Was used extensively for `<div id="header">`
+- There is a small movement to move the use of Id OUT of css
+
+```html
+<img src="#" id="main-logo-img" />
+```
+
+```css
+#main-logo-img {
+  border: 5px solid black;
+  margin: ;0 auto;
+}
+```
+
+## Class Selectors
+
+- Use to identify and element in the DOM that is part of a special class of items
+
+```html
+<img src="#" id="thumb" />
+<img src="#" id="thumb" />
+<img src="#" id="thumb" />
+```
+
+```css
+.thumb {
+  border: 1px solid black;
+  width: 20%;
+}
+```
+
+## Class vs. Id
+
+- Syntax is "." and "#"
+- Classes can be used multiple times
+- Id should be unique
+
+# Browser Capabilites
+
+## Browser Prefixes
+
+- -webtik-: Android, Chrome, ¡OS, Safari
+- -moz-: Firefox
+- -ms-: Internet Explore
+- -o-: Opera
