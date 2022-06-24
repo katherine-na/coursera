@@ -1,0 +1,105 @@
+body {
+  padding: 20px;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(183, 234, 234);
+  background: url(flywheel.jpg);
+  background-size: cover;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+header h1 {
+  color: white;
+  margin: 0%;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 13px 5%;
+  margin: 12px 40px 30px 30px;
+  border-radius: 7%;
+  background-color: hsla(0, 0%, 100%, 0.372);
+}
+
+a:hover {
+  background-color: white;
+}
+
+a.active {
+  background-color: white;
+}
+
+main {
+  position: relative;
+}
+
+.left {
+  background-color: rgb(103, 119, 32);
+  position: absolute;
+  width: 18%;
+  height: 600px;
+}
+
+img {
+  width: 130px;
+  height: 75px;
+  display: block;
+  border: 1px solid black;
+  margin: 30px 29px;
+}
+
+.right {
+  position: absolute;
+  left: 20%;
+  background-color: white;
+  height: 500px;
+  font-size: 18px;
+  width: 70%;
+}
+
+p {
+  font-size: 16px;
+}
+
+table {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table th {
+  color: white;
+  background: rgb(135, 192, 135);
+  background: -moz-linear-gradient(top white, rgb(135, 192, 135));
+  background: -webkit-linear-gradient(white 0%, rgb(135, 192, 135));
+  background: -o-linear-gradient white 0%, rgb(135, 192, 135);
+  border: 1px solid green;
+  border-bottom: 3px solid green;
+  border-radius: 3px;
+  padding: 12px 30px;
+}
+
+table th:first-child {
+  text-align: left;
+  padding: 5px 10px;
+}
+
+table tr td:first-child {
+  text-align: left;
+}
+
+table tr td {
+  background-color: rgb(225, 248, 225);
+  color: grey;
+  padding: 8px;
+  text-align: center;
+}
