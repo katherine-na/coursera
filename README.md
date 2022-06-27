@@ -1,4 +1,6 @@
  # Coursera
+ Coursera works with universities and other organizations to offer online courses.
+ 
  ![](https://s3.amazonaws.com/coursera/media/Grid_Coursera_Partners_updated.png)
  
  ## 📖 Table of Contents
