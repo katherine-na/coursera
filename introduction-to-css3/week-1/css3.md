@@ -224,3 +224,5 @@ h1 {
 - table
 - grid
 - flexbox
+
+![](https://lh3.googleusercontent.com/-tVNmvecB8A4/Ukqdi769oPI/AAAAAAAAAd0/kgisEf3RGRk/s538/CU01038D_1.png)
