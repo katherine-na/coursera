@@ -18,9 +18,13 @@ We will uncover the "mystery" behind the Internet. What happens when you type a 
 
 ### 💾 Project Files
 
-- week-1
+- Wee-1
+  - History and Evolution
 - week-2
+  - What is Document Object Model?
 - week-3
+  - Accessibility
+  - Final Project HTML5
 
 ## Introduction to CSS3
 
@@ -29,6 +33,10 @@ How to style your pages by taking advantage of the power of CSS3. We will focus 
 ### 💾 Project Files
 
 - week-1
+  - What is Cascading Style Sheets?
 - week-2
+  - Box Model
 - week-3
+  - Pseudo Clases
 - week-4
+  - Final project CSS3
