@@ -1,8 +1,8 @@
-<h1 align="center"> Coursera <h1>
+<img src="https://images.ctfassets.net/00atxywtfxvd/4vOWgNjy4KExR8msqHnJEP/bb1557d60e8a29f6a5f09148f700bff5/partner-logos.png" 
+width="100%" >
 
-<p align="center"> Coursera works with universities and other organizations to offer online courses. </p>
-
-![](https://s3.amazonaws.com/coursera/media/Grid_Coursera_Partners_updated.png)
+<h1 align="center"> Coursera </h1>
+<p align="center" font-size: 10px> Coursera works with universities and other organizations to offer online courses. </p>
 
 ## 📖 Table of Contents
 
