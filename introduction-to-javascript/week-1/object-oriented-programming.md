@@ -29,7 +29,7 @@
 - Create cookies
 
 
-## JavaScript OUTPUT
+<h2 align="center">JavaScript Output</h2>
 
 Data is displayed via
 - alert box usinf window.alert()
@@ -68,7 +68,7 @@ Write the data to the browser console
 console.log("Leave a secret message")
 ```
 
-## Variables 
+<h2 align="center">Variables</h2> 
 - In JavaScript, data is a stored in Variables
 - To ouse a variable, you have to declare it 
 ```
@@ -102,3 +102,74 @@ document.write(date);
 var location=window.location;
 document.write(location);
 ```
+
+<h2 align="center">Data Types</h2>
+In JavaScript, a variable can take on many different types
+
+### Number 
+Numerical values 
+- with or without decimals
+
+### String 
+- Is a collection of characters (letters, numbers, ...)
+- To create a string you put the value in quotes "..."
+
+### Boolean
+A boolean value is one that is either true or false
+
+### Objects 
+
+### Array 
+
+<h2 align="center">Operator and Expressions</h2> 
+
+### Statements
+-Statements have been using to excute our JavaScript code.
+- Statements often have expressions 
+- Expressions produce values
+
+### Assignment Operators
+
+| Operator | Example | Value stored in x|
+|:----| :---- | :-----|
+| = | x = 5 | 5 |
+| = | y = 12 | |
+| | x = y | 12 |
+
+### Arithmetic Operators
+
+| Operator | Example | Value stored in x |
+|:----- | :---- | :----- |
+| + | x = 2 + 5 | 7 |
+| - | x = 5 - 2 | 3 |
+| * | x = 2 * 5 | 10 |
+| / | x = 5/2 | 2.5 |
+| % | x = 5 % 2 | 1 |
+
+
+| Operator | Example | Value stored in x |
+|:----|:-----|:----|
+| ++ | x =5; | 5|
+|  | x++; | 6 | 
+| -- |x = 12; | 12 |
+| | x--; |11 |
+| += | x=2; | 2 |
+| | x +=5; | 7|
+
+### String Operators
+
+| Operator | Example | Value stored in x |
+|:-----|:----|:-----|
+| + | x = "Hi"+"There" | "HiThere" |
+| + | x = "Hi" + 5 | "Hi5" |
+| += | x = "Hi" | |
+| | x + "There" | "HiThere" |
+
+### Boolean Operators 
+We can also use operators to compare values
+
+| Operator | Example | Returns |
+|:----|:----|:----|
+| == | x==5 | false |
+| === | x==12 | true |
+| !== | x !==5 | true|
