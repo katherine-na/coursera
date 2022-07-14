@@ -1,36 +1,24 @@
-// var myAge = 25;
+var myAge = 25;
 
-// if (myAge >= 18 && myAge <= 30){
+if (myAge >= 18 && myAge <= 30) {
+  document.write("You can come, you cool dude");
+} else {
+  document.write("You aint coming!");
+}
 
-//     document.write("You can come, you cool dude");
+var myAgeAgain = 15;
 
-// } 
-// else{
+if (myAgeAgain < 18 || myAgeAgain > 30) {
+  document.write("You aint coming!");
+} else {
+  document.write("You can come, you cool");
+}
 
-//     document.write("You aint coming!");
+var age = 5;
 
-// }
+while (age < 10) {
+  console.log("You age is less than 10");
+  age++;
+}
 
-// var myAgeAgain = 15;
-
-// if (myAgeAgain < 18 || myAgeAgain > 30){
-
-//     document.write("You aint coming!");
-
-// } 
-// else {
-
-//     document.write("You can come, you cool");
-
-// }
-
-// var age = 5;
-
-// while (age < 10){
-
-//     console.log("You age is less than 10");
-//     age++;
-
-// }
-
-//     document.write("You are now over 10");
+document.write("You are now over 10");
