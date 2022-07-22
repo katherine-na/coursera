@@ -12,10 +12,11 @@ body {
   display: flex;
 }
 
-.display-container {
+#display-container {
+  display: flex;
   border: 1px solid black;
   width: 500px;
-  height: 800px;
+  height: 665px;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: 100%;
